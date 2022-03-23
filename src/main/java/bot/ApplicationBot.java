@@ -15,9 +15,8 @@ import java.io.File;
 import java.util.List;
 
 public class ApplicationBot extends TelegramLongPollingBot {
-    private final String USERNAME = "YoutTvideosBot";
-    private final String TOKEN = "5246333435:AAERUS6u7pIAUX7JL6WqWBX_LopECdT6n7o";
-
+    private final String USERNAME = "BOT_USERNAME";
+    private final String TOKEN = "BOT_TOKEN";
 
     @Override
     public String getBotUsername() {
