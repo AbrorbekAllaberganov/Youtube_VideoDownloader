@@ -20,12 +20,7 @@ public class YouTubeService {
         Gson gson=new Gson();
         OkHttpClient client = new OkHttpClient();
 
-        Request request = new Request.Builder()
-                .url("https://socialdownloader.p.rapidapi.com/api/youtube/video?video_link="+url)
-                .get()
-                .addHeader("x-rapidapi-host", "socialdownloader.p.rapidapi.com")
-                .addHeader("x-rapidapi-key", "2b4381dffcmsh58946b3b32a692ap13ba51jsnebf7ba34d427")
-                .build();
+       //REQUEST
 
         try {
             Response response = client.newCall(request).execute();
